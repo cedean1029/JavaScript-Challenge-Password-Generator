@@ -22,3 +22,31 @@ function generatePassword() {
   console.log(passwordNumeric);
   var passwordSpecial = window.confirm("Do you want to include special characters in your password?  Click OKAY for YES and CANCEL for NO.");
   console.log(passwordSpecial);
+
+  for (; passwordString.length < passwordLength;) {
+    var randomnumber = Math.floor((Math.random() * 4 + 1))
+    console.log(randomnumber)
+    if (randomnumber == 1) {
+      if (passwordLowercase == true) {
+        passwordString+=(String.fromCharCode(Math.floor((Math.random() * 26 + 97))))
+      }
+    }
+    else if (randomnumber == 2) {
+      if (passwordUppercase == true) {
+        passwordString+=(String.fromCharCode(Math.floor((Math.random() * 26 + 65))))
+      }
+    }
+    else if (randomnumber == 3) {
+      if (passwordNumeric == true) {
+        passwordString+=(String.fromCharCode(Math.floor((Math.random() * 9 + 49))))
+      }
+    }
+    else if (randomnumber == 4) {
+      if (passwordSpecial == true) {
+        passwordString+=(String.fromCharCode(Math.floor((Math.random() * 15 + 33))))
+      }
+    }
+  } 
+  console.log(passwordString.length)
+  return passwordString
+}
