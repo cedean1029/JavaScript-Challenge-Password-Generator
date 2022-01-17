@@ -15,8 +15,8 @@ Once questions have been answered, the generator generates a password that fits 
 * Javascript
 
 ## Website
-[Password Generator](url)
-[Git-Hub Repository](url)
+<a href="https://cedean1029.github.io/JavaScript-Challenge-Password-Generator/">Password Generator</a>
+<a href="https://github.com/cedean1029/JavaScript-Challenge-Password-Generator">Git Hub Repository</a>
 
 ## Demo
 ![CD Password Generator](https://user-images.githubusercontent.com/95880256/149684641-07ae627c-5d4c-4dea-98a9-cc22fa7d7793.gif)
