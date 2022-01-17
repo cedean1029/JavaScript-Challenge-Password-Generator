@@ -18,7 +18,8 @@ Once questions have been answered, the generator generates a password that fits 
 [Password Generator](url)
 [Git-Hub Repository](url)
 
-![Password Generator](https://user-images.githubusercontent.com/95880256/149684429-8b6bf4e2-e117-4fc2-98ff-8d7d26c2091c.gif)
+## Demo
+![CD Password Generator](https://user-images.githubusercontent.com/95880256/149684641-07ae627c-5d4c-4dea-98a9-cc22fa7d7793.gif)
 
 ## Contribution
 Made by Charlotte Dean
